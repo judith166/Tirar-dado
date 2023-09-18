@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        h1 {
+            text-align: center;
+        }
+        .divContainer {
+            margin:30px auto;
+            
+            width: 300px;
+            height: 300px;
+            
+            
+        }
+        #imgDado {
+            width: 150px;
+            height: 150px;
+            padding: 10px;
+        }
+        button {
+            padding: 5px 15px;
+            width: 180px;
+            color:white;
+            border-radius: 20px;
+            border: none;
+            background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+            font-size: 20px;
+        
+        }
+        
+
+
+    </style>
+</head>
+<body>
+    
+    
+    <div class="divContainer">
+        <img id="imgDado" src="dado1.png" onclick="tirarDado()" alt="Dado">
+        <br>
+        
+        <button onclick="tirarDado()">Tirar el Dado</button>
+    </div>
+    
+    <script src="./ejercicios.js"></script>
+</body>
+</html>
